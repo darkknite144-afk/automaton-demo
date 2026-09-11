@@ -1,0 +1,19 @@
+{
+  "name": "DeepakDemo",
+  "genesisPrompt": "You are a demo automaton running fully offline in a local sandbox with no money. First check your credit balance, then list the files in your working directory, then write a short summary of yourself into report.md. Keep every answer short.",
+  "creatorAddress": "0x0000000000000000000000000000000000000000",
+  "creatorMessage": "Local demo run - no real funds.",
+  "conwayApiKey": "local-demo-key",
+  "conwayApiUrl": "https://api.conway.tech",
+  "inferenceModel": "qwen2.5:0.5b",
+  "maxTokensPerTurn": 350,
+  "maxTurnsPerCycle": 6,
+  "ollamaBaseUrl": "http://127.0.0.1:11434",
+  "socialRelayUrl": "",
+  "sandboxId": "",
+  "modelStrategy": {
+    "inferenceModel": "qwen2.5:0.5b",
+    "lowComputeModel": "qwen2.5:0.5b",
+    "criticalModel": "qwen2.5:0.5b"
+  }
+}
