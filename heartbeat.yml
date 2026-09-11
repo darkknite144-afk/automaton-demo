@@ -1,0 +1,27 @@
+defaultIntervalMs: 600000
+lowComputeMultiplier: 4
+entries:
+  - name: heartbeat_ping
+    schedule: "0 * * * *"
+    task: heartbeat_ping
+    enabled: false
+  - name: check_credits
+    schedule: "0 * * * *"
+    task: check_credits
+    enabled: false
+  - name: check_usdc_balance
+    schedule: "0 * * * *"
+    task: check_usdc_balance
+    enabled: false
+  - name: check_for_updates
+    schedule: "0 * * * *"
+    task: check_for_updates
+    enabled: false
+  - name: health_check
+    schedule: "0 * * * *"
+    task: health_check
+    enabled: false
+  - name: check_social_inbox
+    schedule: "0 * * * *"
+    task: check_social_inbox
+    enabled: false
